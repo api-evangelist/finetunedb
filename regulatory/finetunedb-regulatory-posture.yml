@@ -1,0 +1,18 @@
+generated: '2026-10-20'
+method: searched
+source: https://finetunedb.com/privacy-policy
+signals:
+  sensitive_personal_information:
+    evidence:
+      - source: https://finetunedb.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "We do not process sensitive personal information."
+    note: Provider explicitly states they do not process sensitive personal data.
+  third_party_data_collection:
+    evidence:
+      - source: https://finetunedb.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "We do not collect any information from third parties."
+    note: Provider declares no collection of third‑party data.

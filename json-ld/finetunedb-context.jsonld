@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "@vocab": "https://finetunedb.com/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "finetunedb": "https://finetunedb.com/schema#",
+    "PostLogsRequest": "finetunedb:PostLogsRequest",
+    "projectId": {
+      "@id": "finetunedb:projectId",
+      "@type": "xsd:string"
+    },
+    "parentId": {
+      "@id": "finetunedb:parentId",
+      "@type": "xsd:string"
+    },
+    "name": {
+      "@id": "finetunedb:name",
+      "@type": "xsd:string"
+    },
+    "provider": {
+      "@id": "finetunedb:provider",
+      "@type": "xsd:string"
+    },
+    "tags": {
+      "@id": "finetunedb:tags",
+      "@container": "@list"
+    },
+    "model": {
+      "@id": "finetunedb:model",
+      "@type": "xsd:string"
+    },
+    "source": {
+      "@id": "finetunedb:source",
+      "@type": "xsd:string"
+    },
+    "modelParameters": {
+      "@id": "finetunedb:modelParameters"
+    },
+    "input": {
+      "@id": "finetunedb:input",
+      "@type": "xsd:string"
+    },
+    "output": {
+      "@id": "finetunedb:output",
+      "@type": "xsd:string"
+    },
+    "metadata": {
+      "@id": "finetunedb:metadata"
+    },
+    "type": {
+      "@id": "finetunedb:type",
+      "@type": "xsd:string"
+    },
+    "error": {
+      "@id": "finetunedb:error",
+      "@type": "xsd:string"
+    },
+    "latencyMs": {
+      "@id": "finetunedb:latencyMs",
+      "@type": "xsd:decimal"
+    }
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "FinetuneDB API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects FinetuneDB's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-10-20) from openapi/_ae-authored/finetunedb-openapi-generated.yml.",
+  "dcterms:created": "2026-10-20",
+  "dcterms:source": [
+    "openapi/_ae-authored/finetunedb-openapi-generated.yml"
+  ]
+}

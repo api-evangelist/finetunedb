@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/finetunedb/main/json-schema/finetunedb-post-logs-request-schema.json",
+  "title": "PostLogsRequest",
+  "x-generated": "2026-10-20",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/finetunedb-openapi-generated.yml#/components/schemas/PostLogsRequest",
+  "type": "object",
+  "properties": {
+    "projectId": {
+      "type": "string"
+    },
+    "parentId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string",
+      "description": "enum (openai)"
+    },
+    "tags": {
+      "type": "array",
+      "description": "array of strings"
+    },
+    "model": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "modelParameters": {
+      "type": "object",
+      "description": "object"
+    },
+    "input": {
+      "type": "string",
+      "description": "union of input types (Documented below)"
+    },
+    "output": {
+      "type": "string",
+      "description": "union of output types (Documented below)"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "record of any type"
+    },
+    "type": {
+      "type": "string",
+      "description": "enum (CHATCOMPLETION, EMBEDDING)"
+    },
+    "error": {
+      "type": "string"
+    },
+    "latencyMs": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "projectId",
+    "provider",
+    "model",
+    "source",
+    "modelParameters",
+    "type"
+  ]
+}

@@ -1,0 +1,37 @@
+# FinetuneDB
+
+## Docs
+
+- [What is FinetuneDB](https://docs.finetunedb.com/introduction.md): FinetuneDB streamlines AI fine-tuning by providing an end-to-end platform to create and manage datasets, fine-tune and serve LLMs that are significantly cheaper and better performing. Use FinetuneDB to track production data, leverage collaborative tools for dataset creation, test different prompt an…
+- [Overview](https://docs.finetunedb.com/overview.md): Our platform is designed around a cyclical process that simplifies LLM fine-tuning and enables continuous model improvements via monitoring and output evaluations.
+- [Quickstart](https://docs.finetunedb.com/getting-started/quickstart.md): Getting started with setting up and data tracking.
+- [Base Models](https://docs.finetunedb.com/getting-started/open-source-model-inference.md): Fine-tune, compare, and serve open-source, proprietary, and custom models.
+- [Pricing](https://docs.finetunedb.com/getting-started/pricing.md): Flexible plans for individuals and teams.
+- [Switch to Open-Source LLM](https://docs.finetunedb.com/use-cases/switch-to-open-source-llm.md): Switch from a proprietary model like GPT-4 Turbo to an open-source model using current production logs.
+- [Collaborate on Datasets](https://docs.finetunedb.com/use-cases/collaborate-on-fine-tuning-datasets.md): Get together with domain experts to create and collaborate on fine-tuning datasets using the FinetuneDB Dataset Manager.
+- [How it works](https://docs.finetunedb.com/features/dataset-manager/overview.md): Create and manage custom fine-tuning datasets all in one place. Upload datasets, use production data, or create datasets from scratch with domain experts.
+- [Upload Datasets](https://docs.finetunedb.com/features/dataset-manager/upload-datasets.md): Upload datasets in JSONL format using a simple drag-and-drop interface. Multiple datasets can be uploaded into the same project for easy management and editing.
+- [Version Controlled Editing](https://docs.finetunedb.com/features/dataset-manager/version-controlled-editing.md): Easily edit fine-tuning datasets with our user-friendly graphical interface. Keep track of changes and experiment confidently with version histories, making sure you can always revert or compare different dataset versions.
+- [Visual Function Calling Editor](https://docs.finetunedb.com/features/dataset-manager/visual-function-calling-editor.md): Simplify complex function applications with a visual interface, making it easier to apply transformations and data enrichment without code.
+- [Automatic Dataset Validation](https://docs.finetunedb.com/features/dataset-manager/automatic-dataset-validation.md): Our system automatically validates training data integrity.
+- [Export Datasets](https://docs.finetunedb.com/features/dataset-manager/export-datasets.md): Easily export your datasets in JSONL format.
+- [Logging Requests](https://docs.finetunedb.com/features/logs/logging-requests.md): The Log Viewer enables tracking, monitoring, analysis of production logs, and building fine-tuning datasets from production data.
+- [View and Filter Requests](https://docs.finetunedb.com/features/logs/view-and-filter-requests.md): View and filter logs based on various criteria.
+- [Training on Logs](https://docs.finetunedb.com/features/logs/training-on-logs.md): In FinetuneDB, you can search and filter past LLM requests to inspect responses and build a training dataset.
+- [Fine-Tuning](https://docs.finetunedb.com/features/fine-tuning.md): Fine-tune open-source and proprietary LLMs straight from the FinetuneDB platform using production logs or uploaded datasets for a streamlined fine-tuning process.
+- [Model Serving](https://docs.finetunedb.com/features/model-serving.md): Choose your fine-tuned models, view model details, and access API endpoints to integrate your models into production.
+- [Evaluations](https://docs.finetunedb.com/features/llm-output-evaluation.md): Evaluations in FinetuneDB are designed to measure and improve the quality of model outputs through collaborative and automated processes.
+- [Prompt Studio](https://docs.finetunedb.com/features/prompt-studio.md): The Studio is a dedicated space for developing and optimizing AI model prompts and comparing different model versions.
+- [Workspaces](https://docs.finetunedb.com/features/workspaces.md): Workspaces are a centralized hub for managing and collaborating on multiple projects. Each project can be integrated with various model providers and supports shared resources for seamless team collaboration.
+- [Node JS SDK](https://docs.finetunedb.com/logging-data/node-js-sdk.md)
+- [Python](https://docs.finetunedb.com/logging-data/python-sdk.md): Coming soon, stay tuned.
+- [Node JS](https://docs.finetunedb.com/logging-data/langchain-node-js.md): Coming soon, stay tuned.
+- [Python](https://docs.finetunedb.com/logging-data/langchain-python.md): Coming soon, stay tuned.
+- [Web API](https://docs.finetunedb.com/logging-data/web-api.md): Connect via API.
+
+## OpenAPI Specs
+
+- [openapi](https://docs.finetunedb.com/api-reference/openapi.json)
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

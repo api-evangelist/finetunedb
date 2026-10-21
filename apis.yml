@@ -1,23 +1,121 @@
 aid: finetunedb
+
 name: FinetuneDB
-description: 'FinetuneDB is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://finetunedb.com/assets/images/graphics/sharing-image.png
+
+description: FinetuneDB provides an AI fine‑tuning platform that enables users to build custom large language models quickly using their own data.
+  The service offers collaborative dataset editing, model management, and secure deployment, targeting developers and enterprises seeking to improve
+  performance and reduce costs. FinetuneDB was recently acquired by Opper AI, expanding its capabilities and market reach. The platform includes
+  features such as multi‑model handling, security controls, pricing tiers, extensive documentation, and use‑case case studies.
+
 url: https://raw.githubusercontent.com/api-evangelist/finetunedb/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Company
-apis: []
+- AI
+- Machine Learning
+- Platform
+- Fine-tuning
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/finetunedb-plans-pricing.yml
+- type: Spectral
+  url: rules/finetunedb-rules.yml
+- type: JSONLD
+  url: json-ld/finetunedb-context.jsonld
+- type: Vocabulary
+  url: vocabulary/finetunedb-vocabulary.yml
+- type: DataModel
+  url: data-model/finetunedb-data-model.yml
+- type: Conformance
+  url: conformance/finetunedb-conformance.yml
+- type: LLMsTxt
+  url: llms/finetunedb-llms.txt
+- type: AgentCard
+  url: a2a/finetunedb-a2a.yml
+- type: WellKnown
+  url: well-known/finetunedb-well-known.yml
+- type: Hosts
+  url: hosts/finetunedb-hosts.yml
+- type: Vendors
+  url: vendors/finetunedb-vendors.yml
+- type: SDKs
+  url: packages/finetunedb-packages.yml
+- type: Packages
+  url: packages/finetunedb-packages.yml
+- type: GitHubOrganization
+  url: https://github.com/finetunedb
+- type: GettingStarted
+  url: https://docs.finetunedb.com/getting-started/quickstart
+- type: APIReference
+  url: https://docs.finetunedb.com/llms.txt
+- type: DomainSecurity
+  url: security/finetunedb-domain-security.yml
 - type: Website
   url: https://finetunedb.com/
+- type: Documentation
+  url: https://docs.finetunedb.com/
+- type: Pricing
+  url: https://finetunedb.com/pricing/
+- type: Blog
+  url: https://finetunedb.com/blog/
+- type: TermsOfService
+  url: https://finetunedb.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://finetunedb.com/privacy-policy
+
+apis:
+- name: FinetuneDB API
+  description: FinetuneDB provides an AI fine‑tuning platform with endpoints for datasets, fine‑tuning jobs, model serving and evaluations.
+  humanURL: https://docs.finetunedb.com/introduction
+  baseURL: null
+  aid: finetunedb:finetunedb-api-2
+- aid: finetunedb:finetunedb-api
+  name: FinetuneDB API
+  description: 'FinetuneDB API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-20);
+
+    not the provider''s own document.'
+  humanURL: https://docs.finetunedb.com/logging-data/web-api.md
+  baseURL: https://app.finetunedb.com/api/v1
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/finetunedb-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/finetunedb-post-logs-request-schema.json
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, GraphQL, AsyncAPI, gRPC or WSDL files were found on the provider's hosts.
+  evidence:
+  - url: https://docs.finetunedb.com/llms.txt
+    status: 200
+  checked: '2026-10-20'
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 29
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

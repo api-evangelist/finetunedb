@@ -1,0 +1,25 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://finetunedb.com/pricing/
+sources:
+- https://finetunedb.com/pricing/
+- https://docs.finetunedb.com/getting-started/pricing.md
+name: FinetuneDB pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Basic
+  price_text: $0
+  price: 0
+  description: 1 user, 1 project and dataset, 1000 logs per month, $10 free credit
+- name: Pro
+  price_text: $50 per month
+  price: 50
+  description: From 2 users, Unlimited projects and datasets, Unlimited logs, Custom evaluation workflows, Custom integrations (e.g. vLLM), 24-hour
+    support response time, $100 free credit
+- name: Custom
+  price_text: Contact us
+  description: Everything in Pro, plus Custom Model Hosting, Unlimited Users, Custom features and integrations, Role-based access, SAML / Single
+    sign on, SOC 2 compliance, Priority Support
+docs: https://finetunedb.com/pricing/
